@@ -5,8 +5,17 @@ export const pool = new Pool({
 
 })
 const connectDB = async () => {
+    // users
     await pool.query(
         ``
-     )
+    )
+    // vehicle
+    await pool.query(
+        ``
+    )
+    // bookings
+    await pool.query(
+        ``
+    )
 }
 export default connectDB; 
